@@ -252,7 +252,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/12/30/notegit/" itemprop="url">git笔记</a></h1>
+                <a class="post-title-link" href="/2018/12/30/notegit/" itemprop="url">notejs</a></h1>
         
 
         <div class="post-meta">
@@ -304,16 +304,18 @@
       
         
           
-            <p>#1.#<br> git init            初始化一个仓库</p>
-<p>#2.#<br> git config –global user.name “自己的用户名”<br>    git config –global user.email “自己的邮箱”<br>    git config –list  查看git用户配置信息</p>
-<ol start="3">
-<li><p>git add ./                            添加文件到暂存区门口<br> git status                             查看git提交的状态<br> git commit -m ‘提交描述’    将门口的文件拿过来放到暂存区</p>
+            <ol>
+<li><p>git init    初始化一个仓库</p>
+</li>
+<li><p>git config –global user.name  “自己的用户名”<br> git config –global user.email  “自己的邮箱”<br> git config –list   查看git用户配置信息</p>
+</li>
+<li><p>git add ./      添加文件到暂存区门口<br> git status    查看git提交的状态<br> git commit -m ‘提交描述’    将门口的文件拿过来放到暂存区</p>
 </li>
 <li><p>新建忽略文件 .gitignore     先配置忽略文件 在添加</p>
 </li>
-<li><p>git log                       查看提交记录<br> git log –oneline       查看简洁版提交日志</p>
+<li><p>git log         查看提交记录<br> git log –oneline   查看简洁版提交日志</p>
 </li>
-<li><p>版本回退<br> git log                            查看获取版本号<br> git reset –hard 版本号   回退到对应的版本</p>
+<li><p>版本回退<br> git log       查看获取版本号<br> git reset –hard 版本号   回退到对应的版本</p>
 </li>
 <li><p>git branch 分支名字        创建分支<br> git branch                      获取分支信息<br> git checkout 分支名字    切换分支</p>
 <p> git merge 分支名字        和并分支    </p>
@@ -326,12 +328,12 @@
 <ol start="9">
 <li><p>下拉 上传<br> git push     推送到远程仓库<br> git pull      从远程仓库下拉</p>
 </li>
-<li><p>克隆<br>  git clone 仓库地址         （注意 从远程仓库克隆到本地  已经关联好了）</p>
+<li><p>克隆<br>  git clone 仓库地址     （注意: 从远程仓库克隆到本地  已经关联好了）</p>
 </li>
 <li><p>以后工作中的操作<br>  11.1  现在远程创建一个仓库<br>   11.2  通过git clone 仓库地址   将远程仓库克隆本地<br>   11.3  git add ./     —&gt; git commit -m ‘000’  —&gt; git push</p>
 </li>
 </ol>
-<pre><code>一定要先拉git pull 在推 git push
+<pre><code>&lt;注意: 一定要先拉git pull 在推 git push&gt;
 </code></pre><ol start="12">
 <li><p>自己建一个远程仓库<br>  自己添加一些开发者<br>  你们商量制造一些冲突 然后解决冲突重新提交<br>  每一个人都要当一次管理员</p>
 </li>
